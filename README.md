@@ -8,3 +8,5 @@ How to build:
 gcc -o alienatk game.c util.c -lallegro 
 
 [Download on itch.io](https://softwave.itch.io/alien-attack)
+
+Public domain software 
