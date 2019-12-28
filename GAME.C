@@ -266,5 +266,7 @@ void g_over()
 {
     clear_to_color(screen,makecol(0,0,0));
     textout_centre_ex(screen, font, "GAME OVER", SCREEN_W/2, SCREEN_H/2, makecol(255,255,255), -1);
+    textprintf_ex(screen, font,16,16,makecol(255,255,255),-1,
+    "SCORE: %d",score);
     textout_centre_ex(screen,font,"Press ESC to quit",SCREEN_W/2,SCREEN_H-16,makecol(255,255,255),-1);
 }
